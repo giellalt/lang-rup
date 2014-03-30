@@ -304,18 +304,21 @@ CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-akte:1 COMMA ;
-göökte:2 COMMA ;
-golme:3 COMMA ;
-njieljie:4 COMMA ;
-njielje+Use/NG:4 COMMA ;
-nieljie+Use/NG:4 COMMA ;  
-nielje+Use/NG:4 COMMA ; 
-vïjhte:5 COMMA ;
-govhte:6 COMMA ;
-tjïjhtje:7 COMMA ;
-gaektsie:8 COMMA ;
-uktsie:9 COMMA ;
+unu:1 COMMA ;
+doi:2 COMMA ;
+trei:3 COMMA ;
+patru:4 COMMA ;
+tsintsi:5 COMMA ;
+tsints+Use/NG:5 COMMA ;
+shase:6 COMMA ;
+shease+Use/NG:6 COMMA ;
+shasi+Use/NG:6 COMMA ;
+shease+Use/NG:6 COMMA ;
+shapte:7 COMMA ;
+shapti+Use/NG:7 COMMA ;
+optu:8 COMMA ;
+noauã:9 COMMA ;
+nauã+Use/NG:9 COMMA ;
 
 LEXICON ORDINAL
 voestes:1%.     COMMA ;
