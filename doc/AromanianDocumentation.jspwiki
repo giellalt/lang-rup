@@ -8,7 +8,7 @@
   / [affixes|https://victorio.uit.no/langtech/trunk/langs/rup/src/morphology/affixes/] 
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/rup/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/rup/src/phonology/rup-phon.twolc]   
-  / [yaml|https://victorio.uit.no/langtech/trunk/langs/rup/test/src/morphology/]
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/rup/test/src/gt-norm-yamls/]
 
 !!! Grammatical issues
 
