@@ -49,23 +49,10 @@
 !87  obdzãtsãshapti
 !98  naudzãtsãoptu
 !100 unã sutã
+!200 dau suti
 !101 unã sutã sh-unã
 !213 dau suti treisprã
 !1000 unã njilji
-
-
-!ok also difference between ron og rup
-!Florentina fortelte med også:
-!also 10-20 samme (nesten)
-!20 - 30
-!ron: douåzecisiunã 20 and 1/2/3
-!rup: elve_og_20, 12_og_20... ... ah, die franzosen.. ja, litt anneledes@
-
-
-
-
-
-!moment jeg hadde en liste med tall i rup
 
 
 !Multichar_Symbols
@@ -265,15 +252,15 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDRED ;
-unã:1 HNDR ; ! 100 cardinal
-dau:2   HNDR ;
-trei:3    HNDR ;
-patru:4 HNDR ;
-tsintsi:5   HNDR ;
-shasi:6   HNDR ;
-shapti:7 HNDR ;
-optu:8 HNDR ;
-nau:9   HNDR ;
+unã% :1 HNDR ; ! 100 cardinal
+dau% :2   HNDR ;
+trei% :3    HNDR ;
+patru% :4 HNDR ;
+tsintsi% :5   HNDR ;
+shasi% :6   HNDR ;
+shapti% :7 HNDR ;
+optu% :8 HNDR ;
+nau% :9   HNDR ;
 
 
 LEXICON HNDR ! Here we add the word for hundred
