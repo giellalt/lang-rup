@@ -278,43 +278,44 @@ LEXICON HUNDRED
 ! :%0%0%.    COMMA ;
 
 LEXICON TEENS
-unãsprã:11 COMMA ;
-dausprã:12 COMMA ;
-treisprã:13 COMMA ;
-pasprã:14 COMMA ;
-tsisprã:15 COMMA ;
-shasprã:16 COMMA ;
-shaptisprã:17 COMMA ;
-optusprã:18 COMMA ;
-nausprã:19 COMMA ;
+dzatsi:1%0   COMMA ;   
+:1 TEENSNUMBERS ;
 
+LEXICON TEENSNUMBERS
+unã:1 TEENSEND ;
+dau:2 TEENSEND ;
+trei:3 TEENSEND ;
+pa:4 TEENSEND ;
+tsi:5 TEENSEND ;
+sha:6 TEENSEND ;
+shapti:7 TEENSEND ;
+optu:8 TEENSEND ;
+nau:9 TEENSEND ;
 
-!20	yinghits
-!21  unãsprãyinghits
-!22  dausprãyinghits
-
+LEXICON TEENSEND
+sprã: COMMA ;
 
 LEXICON TWENTIES
 yinghits:2%0   COMMA ;   
 :2 TWENTIESNUMBERS ;
 
 LEXICON TWENTIESNUMBERS 
-unã:1   TWENTIESEND ;
-dau:2   TWENTIESEND ;
-trei:3    TWENTIESEND ;
-patru:4 TWENTIESEND ;
-tsintsi:5   TWENTIESEND ;
-shasi:6   TWENTIESEND ;
+unã:1 TWENTIESEND ;
+dau:2 TWENTIESEND ;
+trei:3 TWENTIESEND ;
+pa:4 TWENTIESEND ;
+tsi:5 TWENTIESEND ;
+sha:6 TWENTIESEND ;
 shapti:7 TWENTIESEND ;
 optu:8 TWENTIESEND ;
-nau:9   TWENTIESEND ;
+nau:9 TWENTIESEND ;
 
 LEXICON TWENTIESEND
-sprãyinghits: # ;
+sprãyinghits: COMMA ;
 
 LEXICON TENS
 dzatsi:1%0 COMMA ;
-låhkede:1%0%. COMMA ;
+yinghits:2%0   COMMA ; 
 treidzãts:3    TN ;
 patrudzãts:4 TN ;
 tsindzãts:5   TN ;
@@ -333,6 +334,7 @@ CARDINAL ;
 !ORDINAL ;
 
 LEXICON CARDINAL
+!zero:%0 COMMA ;
 unã:1 COMMA ;
 dau:2 COMMA ;
 trei:3 COMMA ;
