@@ -54,6 +54,17 @@
 !213 dau suti treisprã
 !1000 unã njilji
 
+!something to debug
+!xfst[1]: up 222
+!dau suti dausprãyinghits
+!daunjiljidausprãyinghits
+!xfst[1]: up 2222
+!daunjiljidau suti dausprãyinghits
+!yinghitsdaunjiljidausprãyinghits
+!xfst[1]: up 22222
+!dausutãyinghitsdaunjiljidausprãyinghits
+!yinghitsdaunjiljidau suti dausprãyinghits
+
 
 !Multichar_Symbols
 !  +Use/NG    ! Do not generate, for isme-ped.fst and apertium
