@@ -252,22 +252,29 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDRED ;
-unã% :1 HNDR ; ! 100 cardinal
-dau% :2   HNDR ;
-trei% :3    HNDR ;
-patru% :4 HNDR ;
-tsintsi% :5   HNDR ;
-shasi% :6   HNDR ;
-shapti% :7 HNDR ;
-optu% :8 HNDR ;
-nau% :9   HNDR ;
+unã% :1 HNDR_S ; ! 100 cardinal
+dau% :2   HNDR_P ;
+trei% :3    HNDR_P ;
+patru% :4 HNDR_P ;
+tsintsi% :5   HNDR_P ;
+shasi% :6   HNDR_P ;
+shapti% :7 HNDR_P ;
+optu% :8 HNDR_P ;
+nau% :9   HNDR_P ;
 
 
-LEXICON HNDR ! Here we add the word for hundred
-sutã:   HUNDRED ;
+LEXICON HNDR_S ! Here we add the word for hundred
+sutã% :   HUNDRED ;
 sutã:%0%0 COMMA ; ! precisely 100, 200, 300...
 sutã:%0   ONES ; ! continue to 101, 102, ... 
 !tjuatede:  CUODAAT ; ! ordinal hundredth, wait with ordinals
+
+LEXICON HNDR_P ! Here we add the word for hundred
+suti% :   HUNDRED ;
+suti:%0%0 COMMA ; ! precisely 100, 200, 300...
+suti:%0   ONES ; ! continue to 101, 102, ... 
+!tjuatede:  CUODAAT ; ! ordinal hundredth, wait with ordinals
+
 
 LEXICON HUNDRED
  TEENS ;    ! continue to 111, 112, ...
