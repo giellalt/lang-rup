@@ -330,7 +330,7 @@ LEXICON TN
 
 LEXICON ONES
 CARDINAL ;
-ORDINAL ;
+!ORDINAL ;
 
 LEXICON CARDINAL
 unã:1 COMMA ;
@@ -343,16 +343,16 @@ shapti:7 COMMA ;
 optu:8 COMMA ;
 nau:9 COMMA ;
 
-LEXICON ORDINAL
-voestes:1%.     COMMA ;
-mubpie:2%.   COMMA ;
-gåalmede:3%.   COMMA ;
-njealjede:4%. COMMA ;
-tsintside:5%.   COMMA ;
-shaside:6%.   COMMA ;
-shaptide:7%.    COMMA ;
-gaaktsede:8%.   COMMA ;
-åktsede:9%.    COMMA ;
+!LEXICON ORDINAL
+!voestes:1%.     COMMA ;
+!mubpie:2%.   COMMA ;
+!gåalmede:3%.   COMMA ;
+!njealjede:4%. COMMA ;
+!tsintside:5%.   COMMA ;
+!shaside:6%.   COMMA ;
+!shaptide:7%.    COMMA ;
+!gaaktsede:8%.   COMMA ;
+!åktsede:9%.    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
