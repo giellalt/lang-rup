@@ -327,7 +327,8 @@ naudzãts:9   TN ;
 LEXICON TN
 :%0   COMMA ;
 :%0%. COMMA ;
-      ONES ;
+ã:     ONES ; ! Fugenvokal
+
 
 LEXICON ONES
 CARDINAL ;
