@@ -7,7 +7,7 @@ It was made for testing purposes, and is not good enough to
 be used in working programs. 
 
 
------
+----
 
 The structure of the source file catalogue is the same for all
 the languages, it is documented [here|../../infra/infraremake/NewinfraCatalogues.html].
