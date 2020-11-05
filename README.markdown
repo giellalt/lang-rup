@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/rupdoc/index.html>
+-   <https://giellalt.uit.no/lang/rup/AromanianDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
