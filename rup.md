@@ -1,4 +1,11 @@
 
+# Symbol affixes
+
+
+
+
+
+
 # Macedo-Romanian morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Macedo-Romanian LANGUAGE.
 
