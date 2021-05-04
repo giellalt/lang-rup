@@ -1,3 +1,3 @@
-* [symbols-affixes.md](symbols-affixes.md)
-* [root-morphology.md](root-morphology.md)
-* [transcriptor-abbrevs2text.md](transcriptor-abbrevs2text.md)
+* [symbols-affixes-fst-src.md](symbols-affixes-fst-src.md)
+* [root-fst-src.md](root-fst-src.md)
+* [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
