@@ -13,5 +13,5 @@
     * `grammarcheckers/`
         * [grammarchecker.cg3](tools-grammarcheckers-grammarchecker.cg3.html) ([src](https://github.com/giellalt/lang-rup/blob/main/tools/grammarcheckers/grammarchecker.cg3))
     * `tokenisers/`
-        * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-rup/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
         * [tokeniser-disamb-gt-desc.pmscript](tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-rup/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript))
+        * [tokeniser-gramcheck-gt-desc.pmscript](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.html) ([src](https://github.com/giellalt/lang-rup/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript))
