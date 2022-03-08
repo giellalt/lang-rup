@@ -81,16 +81,16 @@ LEXICON Root
 ! LEXICON NUMBERSECTION
 
 HUNDREDSM ;		! 200M
-sutã:1 HUNDREDM ;	! 100M
+1:sutã  HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-sutã:1 HUNDREDT ;	! 100000-100999
+1:sutã  HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-unã% njilji:1 THOUSAND ;	! 1000-1999
+1:unã% njilji  THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 HUNDRED ;
 TENS ;			! 20-99
@@ -98,69 +98,69 @@ TEENS ;			! 10-19
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-dau:2  HNDRM ;
-trei:3 HNDRM ;
-patru:4 HNDRM ; ! Google: 459
-tsintsi:5 HNDRM ;
-shasi:6 HNDRM ;
-shapti:7 HNDRM ;
-optu:8 HNDRM ;
-nau:9 HNDRM ;
+2:dau   HNDRM ;
+3:trei  HNDRM ;
+4:patru  HNDRM ; ! Google: 459
+5:tsintsi  HNDRM ;
+6:shasi  HNDRM ;
+7:shapti  HNDRM ;
+8:optu  HNDRM ;
+9:nau  HNDRM ;
 
 LEXICON HNDRM
-sutã: HUNDREDM ;
+:sutã  HUNDREDM ;
 
 LEXICON HUNDREDM
       TENSM ;
       TEENSM ;
-:%0   ONESM ;
-:%0%0 MILJON ;
+%0:   ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-dzatsi:1 TEENM ;
+1:dzatsi  TEENM ;
 
 LEXICON TEENM
-unã:1     TEENS_2ND_PART_M ;
-dau:2   TEENS_2ND_PART_M ;
-trei:3    TEENS_2ND_PART_M ;
-patru:4 TEENS_2ND_PART_M ;
-tsintsi:5   TEENS_2ND_PART_M ;
-shasi:6   TEENS_2ND_PART_M ;
-shapti:7 TEENS_2ND_PART_M ;
-optu:8 TEENS_2ND_PART_M ;
-nau:9   TEENS_2ND_PART_M ;
+1:unã      TEENS_2ND_PART_M ;
+2:dau    TEENS_2ND_PART_M ;
+3:trei     TEENS_2ND_PART_M ;
+4:patru  TEENS_2ND_PART_M ;
+5:tsintsi    TEENS_2ND_PART_M ;
+6:shasi    TEENS_2ND_PART_M ;
+7:shapti  TEENS_2ND_PART_M ;
+8:optu  TEENS_2ND_PART_M ;
+9:nau    TEENS_2ND_PART_M ;
 
 LEXICON TEENS_2ND_PART_M
 MILJON ;
 
 LEXICON TENSM
-dzatsi:1%0 MILJON ;
-dau:2   TNM ;
-trei:3    TNM ;
-patru:4 TNM ;
-tsintsi:5   TNM ;
-shasi:6   TNM ;
-shapti:7 TNM ;
-optu:8 TNM ;
-nau:9   TNM ;
+1%0:dzatsi MILJON ;
+2:dau    TNM ;
+3:trei     TNM ;
+4:patru  TNM ;
+5:tsintsi    TNM ;
+6:shasi    TNM ;
+7:shapti  TNM ;
+8:optu  TNM ;
+9:nau    TNM ;
 
 LEXICON TNM
-dzatsi:%0 MILJON ;
-dzatsi:   ONESM ;
+%0:dzatsi MILJON ;
+:dzatsi   ONESM ;
 
 LEXICON ONESM
-unã% miljon% :1 OVERTHOUSANDS ;
-dau:2         MILJON ;
-trei:3          MILJON ;
-patru:4       MILJON ;
-tsintsi:5         MILJON ;
-shasi:6         MILJON ;
-shapti:7       MILJON ;
-optu:8       MILJON ;
-nau:9         MILJON ; 
+1:unã% miljon%   OVERTHOUSANDS ;
+2:dau          MILJON ;
+3:trei           MILJON ;
+4:patru        MILJON ;
+5:tsintsi          MILJON ;
+6:shasi          MILJON ;
+7:shapti        MILJON ;
+8:optu        MILJON ;
+9:nau          MILJON ; 
 
 LEXICON MILJON
-% miljona% : OVERTHOUSANDS ;
+:% miljona%   OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -168,89 +168,89 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-sutã:1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-njilji:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 COMMA ;	!  x000000
+1:sutã  HUNDREDT ;	! 100.000.000
+%0: TENST ;		!  20.000.000
+%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:njilji THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-dau:2   HNDRT ;	! 200000-299999
-trei:3    HNDRT ;	! 300000-399999
-patru:4 HNDRT ;	! 400000-499999
-tsintsi:5   HNDRT ;	! 500000-599999
-shasi:6   HNDRT ;	! 600000-699999
-shapti:7 HNDRT ;	! 700000-799999
-optu:8 HNDRT ;	! 800000-899999
-nau:9   HNDRT ;	! 900000-999999
+2:dau    HNDRT ;	! 200000-299999
+3:trei     HNDRT ;	! 300000-399999
+4:patru  HNDRT ;	! 400000-499999
+5:tsintsi    HNDRT ;	! 500000-599999
+6:shasi    HNDRT ;	! 600000-699999
+7:shapti  HNDRT ;	! 700000-799999
+8:optu  HNDRT ;	! 800000-899999
+9:nau    HNDRT ;	! 900000-999999
 
 LEXICON HNDRT
-sutã: HUNDREDT ;	! 100000-199999
+:sutã  HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
 TEENST ;		! X1XYYY
-unã:%01 THOUSANDS ;
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+%01:unã THOUSANDS ;
+%0: ONEST ;		! XX0YYY
+%0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-dzatsi:1   TEENT ;
-dzatsi:1%0 THOUSANDS ;
+1:dzatsi    TEENT ;
+1%0:dzatsi  THOUSANDS ;
 
 LEXICON TEENT
-unã:1     TEENS_2ND_PART_T ;
-dau:2   TEENS_2ND_PART_T ;
-trei:3    TEENS_2ND_PART_T ;
-patru:4 TEENS_2ND_PART_T ;
-tsintsi:5   TEENS_2ND_PART_T ;
-shasi:6   TEENS_2ND_PART_T ;
-shapti:7 TEENS_2ND_PART_T ;
-optu:8 TEENS_2ND_PART_T ;
-nau:9   TEENS_2ND_PART_T ;
+1:unã      TEENS_2ND_PART_T ;
+2:dau    TEENS_2ND_PART_T ;
+3:trei     TEENS_2ND_PART_T ;
+4:patru  TEENS_2ND_PART_T ;
+5:tsintsi    TEENS_2ND_PART_T ;
+6:shasi    TEENS_2ND_PART_T ;
+7:shapti  TEENS_2ND_PART_T ;
+8:optu  TEENS_2ND_PART_T ;
+9:nau    TEENS_2ND_PART_T ;
 
 LEXICON TEENS_2ND_PART_T
 THOUSANDS ;
 
 LEXICON TENST
-yinghits:2   TNT ;
-treidzãts:3    TNT ;
-patrudzãts:4 TNT ;
-tsindzãts:5   TNT ;
-shaidzãts:6   TNT ;
-shaptidzãts:7 TNT ;
-obdzãts:8 TNT ;
-naudzãts:9   TNT ;
+2:yinghits    TNT ;
+3:treidzãts     TNT ;
+4:patrudzãts  TNT ;
+5:tsindzãts    TNT ;
+6:shaidzãts    TNT ;
+7:shaptidzãts  TNT ;
+8:obdzãts  TNT ;
+9:naudzãts    TNT ;
 
 LEXICON TNT
-:%0   THOUSANDS ;
+%0:   THOUSANDS ;
       ONEST ;
 
 LEXICON ONEST
-unã% :1 THOUSANDS ; !unã njilji 1000
-dau:2 THOUSANDS ;
-trei:3 THOUSANDS ;
-patru:4 THOUSANDS ;
-tsintsi:5 THOUSANDS ;
-shasi:6 THOUSANDS ;
-shapti:7 THOUSANDS ;
-optu:8 THOUSANDS ;
-nau:9 THOUSANDS ;
+1:unã%   THOUSANDS ; !unã njilji 1000
+2:dau  THOUSANDS ;
+3:trei  THOUSANDS ;
+4:patru  THOUSANDS ;
+5:tsintsi  THOUSANDS ;
+6:shasi  THOUSANDS ;
+7:shapti  THOUSANDS ;
+8:optu  THOUSANDS ;
+9:nau  THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-njilji: THOUSAND ;
+:njilji  THOUSAND ;
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
-:%0 TEENS ;	   ! 1010-1019
-:%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 COMMA ;	   ! 1000
+%0: TENS ;	   ! 1020-1099
+%0: TEENS ;	   ! 1010-1019
+%0%0: ONES ;	   ! 1001-1009
+%0%0%0: COMMA ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -263,28 +263,28 @@ UNDERTHOUSAND ;	   ! 1100-1999
 ! the hundred-digit
 
 LEXICON UNDERTHOUSAND
-:%0 HUNDRED ;
-unã% :1 HNDR_S ; ! 100 cardinal
-dau% :2   HNDR_P ;
-trei% :3    HNDR_P ;
-patru% :4 HNDR_P ;
-tsintsi% :5   HNDR_P ;
-shasi% :6   HNDR_P ;
-shapti% :7 HNDR_P ;
-optu% :8 HNDR_P ;
-nau% :9   HNDR_P ;
+%0: HUNDRED ;
+1:unã%   HNDR_S ; ! 100 cardinal
+2:dau%     HNDR_P ;
+3:trei%      HNDR_P ;
+4:patru%   HNDR_P ;
+5:tsintsi%     HNDR_P ;
+6:shasi%     HNDR_P ;
+7:shapti%   HNDR_P ;
+8:optu%   HNDR_P ;
+9:nau%     HNDR_P ;
 
 
 LEXICON HNDR_S ! Here we add the word for hundred
-sutã% :   HUNDRED ;
-sutã:%0%0 COMMA ; ! precisely 100, 200, 300...
-sutã% sh%-:%0   ONES ; ! continue to 101, 102, ... 
+:sutã%     HUNDRED ;
+%0%0:sutã COMMA ; ! precisely 100, 200, 300...
+%0:sutã% sh%-    ONES ; ! continue to 101, 102, ... 
 !tjuatede:  CUODAAT ; ! ordinal hundredth, wait with ordinals
 
 LEXICON HNDR_P ! Here we add the word for hundred
-suti% :   HUNDRED ;
-suti:%0%0 COMMA ; ! precisely 100, 200, 300...
-suti:%0   ONES ; ! continue to 101, 102, ... 
+:suti%    HUNDRED ;
+%0%0:suti COMMA ; ! precisely 100, 200, 300...
+%0:suti    ONES ; ! continue to 101, 102, ... 
 !tjuatede:  CUODAAT ; ! ordinal hundredth, wait with ordinals
 
 
@@ -297,56 +297,56 @@ LEXICON HUNDRED
 ! :%0%0%.    COMMA ;
 
 LEXICON TEENS
-dzatsi:1%0   COMMA ;   
-:1 TEENSNUMBERS ;
+1%0:dzatsi   COMMA ;   
+1: TEENSNUMBERS ;
 
 LEXICON TEENSNUMBERS
-unã:1 TEENSEND ;
-dau:2 TEENSEND ;
-trei:3 TEENSEND ;
-pa:4 TEENSEND ;
-tsi:5 TEENSEND ;
-sha:6 TEENSEND ;
-shapti:7 TEENSEND ;
-optu:8 TEENSEND ;
-nau:9 TEENSEND ;
+1:unã  TEENSEND ;
+2:dau  TEENSEND ;
+3:trei  TEENSEND ;
+4:pa  TEENSEND ;
+5:tsi  TEENSEND ;
+6:sha  TEENSEND ;
+7:shapti  TEENSEND ;
+8:optu  TEENSEND ;
+9:nau  TEENSEND ;
 
 LEXICON TEENSEND
-sprã: COMMA ;
+:sprã  COMMA ;
 
 LEXICON TWENTIES
-yinghits:2%0   COMMA ;   
-:2 TWENTIESNUMBERS ;
+2%0:yinghits   COMMA ;   
+2: TWENTIESNUMBERS ;
 
 LEXICON TWENTIESNUMBERS 
-unã:1 TWENTIESEND ;
-dau:2 TWENTIESEND ;
-trei:3 TWENTIESEND ;
-pa:4 TWENTIESEND ;
-tsi:5 TWENTIESEND ;
-sha:6 TWENTIESEND ;
-shapti:7 TWENTIESEND ;
-optu:8 TWENTIESEND ;
-nau:9 TWENTIESEND ;
+1:unã  TWENTIESEND ;
+2:dau  TWENTIESEND ;
+3:trei  TWENTIESEND ;
+4:pa  TWENTIESEND ;
+5:tsi  TWENTIESEND ;
+6:sha  TWENTIESEND ;
+7:shapti  TWENTIESEND ;
+8:optu  TWENTIESEND ;
+9:nau  TWENTIESEND ;
 
 LEXICON TWENTIESEND
-sprãyinghits: COMMA ;
+:sprãyinghits  COMMA ;
 
 LEXICON TENS
-dzatsi:1%0 COMMA ;
-yinghits:2%0   COMMA ; 
-treidzãts:3    TN ;
-patrudzãts:4 TN ;
-tsindzãts:5   TN ;
-shaidzãts:6   TN ;
-shaptidzãts:7 TN ;
-obdzãts:8 TN ;
-naudzãts:9   TN ;
+1%0:dzatsi  COMMA ;
+2%0:yinghits   COMMA ; 
+3:treidzãts     TN ;
+4:patrudzãts  TN ;
+5:tsindzãts    TN ;
+6:shaidzãts    TN ;
+7:shaptidzãts  TN ;
+8:obdzãts  TN ;
+9:naudzãts    TN ;
 
 LEXICON TN
-:%0   COMMA ;
-:%0%. COMMA ;
-ã:     ONES ; ! Fugenvokal
+%0:   COMMA ;
+%0%.: COMMA ;
+:ã     ONES ; ! Fugenvokal
 
 
 LEXICON ONES
@@ -355,15 +355,15 @@ CARDINAL ;
 
 LEXICON CARDINAL
 !zero:%0 COMMA ;
-unã:1 COMMA ;
-dau:2 COMMA ;
-trei:3 COMMA ;
-patru:4 COMMA ;
-tsintsi:5 COMMA ;
-shasi:6 COMMA ;
-shapti:7 COMMA ;
-optu:8 COMMA ;
-nau:9 COMMA ;
+1:unã  COMMA ;
+2:dau  COMMA ;
+3:trei  COMMA ;
+4:patru  COMMA ;
+5:tsintsi  COMMA ;
+6:shasi  COMMA ;
+7:shapti  COMMA ;
+8:optu  COMMA ;
+9:nau  COMMA ;
 
 !LEXICON ORDINAL
 !voestes:1%.     COMMA ;
