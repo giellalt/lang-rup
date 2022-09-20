@@ -4,6 +4,8 @@ The Macedo-Romanian (Aromanian) morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-rup)](https://github.com/giellalt/lang-rup/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-rup/main/badge.svg)](https://github.com/giellalt/lang-rup/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-rup)](https://github.com/giellalt/lang-rup/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rup?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-rup?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Macedo-Romanian language,
 for building morphological analysers, proofing tools
