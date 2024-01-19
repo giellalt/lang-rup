@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>rup</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Macedo-Romanian</title>
+    <title>Macedo-Romanian</title>
     <description>This is an fst-based speller for Macedo-Romanian. It is based
     on the normative subset of the morphological analyser for Macedo-Romanian.
     The source code can be found at:
