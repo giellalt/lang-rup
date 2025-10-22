@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-rup)](https://github.com/giellalt/lang-rup/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-rup)](https://github.com/giellalt/lang-rup/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-rup?label=CI)](https://builds.giellalt.org/pipelines/lang-rup/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/arom1237)
 
 This page documents the work on the **Macedo-Romanian language model**. 
 
