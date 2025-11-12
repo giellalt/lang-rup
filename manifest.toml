@@ -1,6 +1,3 @@
-spellername = "Macedo-Romanian"
-spellerversion = "0.1.1"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -22,3 +19,15 @@ legacy_product_codes = [
     { value = "B6FD06A8-2448-4A35-AF3F-698D82DA6777", kind = "nsis" },
     { value = "6C450BEB-4EB7-49F6-99ED-0B46CA269E6B", kind = "nsis" }
 ]
+
+[package.speller]
+name = "Macedo-Romanian"
+version = "0.1.1"
+
+[package.grammar]
+name = "Macedo-Romanian"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "Macedo-Romanian"
+version = "0.1.0"
